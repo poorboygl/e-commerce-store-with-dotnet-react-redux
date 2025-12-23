@@ -1,0 +1,9 @@
+ch02
+dotnet new list
+dotnet new sln
+dotnet new webapi -h
+
+dotnet new webapi -n API -controllers
+-n name
+
+dotnet run
