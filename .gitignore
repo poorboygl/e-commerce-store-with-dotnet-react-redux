@@ -7,7 +7,19 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
+# Ignore all SQLite database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+#API/appsettings.json
+*/Class1.cs
+API/Controllers/WeatherForecastController.cs
+API/WeatherForecast.cs
+
 # Build results
+.vs
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
