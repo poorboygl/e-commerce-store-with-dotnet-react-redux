@@ -16,3 +16,9 @@ dotnet watch
 
  dotnet ef database update
  dotnet ef database drop
+
+ch03
+npm create vite@latest
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+npm install react@rc react-dom@rc
