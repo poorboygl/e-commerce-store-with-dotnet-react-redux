@@ -22,3 +22,5 @@ npm create vite@latest
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 npm install react@rc react-dom@rc
+
+npm install vite-plugin-mkcert -D 
