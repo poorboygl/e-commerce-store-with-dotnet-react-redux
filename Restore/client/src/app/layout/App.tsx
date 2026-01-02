@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { Product } from "./assets/product";
+import type { Product } from "../models/product";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -20,8 +20,8 @@ function App() {
         quantityInStock: 100,
         description: "test",
         pictureUrl: "https://picsum.photo/200",
-        type: 'test',
-        brand: 'test'
+        type: "test",
+        brand: "test",
       },
     ]);
   };
