@@ -26,3 +26,10 @@ npm install react@rc react-dom@rc
 npm install vite-plugin-mkcert -D 
 
 https://transform.tools/json-to-typescript
+
+npm install @mui/material@6 @emotion/react @emotion/styled
+npm install @mui/material@6 @emotion/react @emotion/styled --legacy-peer-deps
+
+npm install @fontsource/roboto
+
+npm install @mui/icons-material@^6.5.0 --legacy-peer-deps
