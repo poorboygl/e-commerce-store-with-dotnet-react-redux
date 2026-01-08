@@ -12,7 +12,7 @@ import {
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
-  const darkMode = false;
+  const darkMode = true;
   const paletteType = darkMode ? "dark" : "light";
   const theme = createTheme({
     palette: {
@@ -35,7 +35,10 @@ function App() {
       <Box
         sx={{
           minHeight: "100vh",
-          background: darkMode ? "#121212" : "#eaeaea",
+          background: darkMode
+            ? "radial-gradient(circle, #1e3aBa, #111B27)"
+            : "radial-gradient(circle, #baecf9, #f0f9ff)",
+          py: 6,
         }}
       >
         <Container maxWidth="xl" sx={{ mt: 14 }}>
